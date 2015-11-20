@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( Compressor )
+find_package( OpenCV REQUIRED )
+add_executable( compacta ../src/compacta.cpp ../src/compressor.cpp ../src/huffman.cpp )
+add_executable( descompacta ../src/descompacta.cpp ../src/compressor.cpp ../src/huffman.cpp )
+target_link_libraries( compacta  ${OpenCV_LIBS} )
+target_link_libraries( descompacta  ${OpenCV_LIBS} )

@@ -1,0 +1,13 @@
+Compressing:
+  ✔ Verificar imagens com proporção diferente de 1:1 @done (15-09-30 09:38)
+  ✔ Escalável para imagens com proporção diferentes de multiplos de 8 @done (15-10-08 08:38)
+  ☐ Imagens coloridas (Não necessario para o tp)
+  ✔ Tentar diminuir o tempo do decodificador @done (15-10-08 10:09)
+    Diminiu por consequencia do zig zag
+  ✔ Reduzir o tamanho com o zigzag @done (15-10-01 08:59)
+    ✔ Implementar metodo generalizado @done (15-10-01 08:31)
+    ✔ Problema na função forwardDCT @done (15-10-01 08:59)
+      Ainda apresenta erros para C=6. A imagem reconstruida não fica boa.
+      Bons resultados para C=4 e imagens grandes.
+  ✔ Modificar mascara para array @done (15-09-30 08:37)
+  
